@@ -13,6 +13,7 @@
 		3FC351FD1E35F390009A7649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC351FB1E35F390009A7649 /* Main.storyboard */; };
 		3FC351FF1E35F390009A7649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC351FE1E35F390009A7649 /* Assets.xcassets */; };
 		3FC352021E35F390009A7649 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC352001E35F390009A7649 /* LaunchScreen.storyboard */; };
+		3FC3520C1E35FF50009A7649 /* AGRoundButn.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3520B1E35FF50009A7649 /* AGRoundButn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3FC351FE1E35F390009A7649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FC352011E35F390009A7649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FC352031E35F390009A7649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC3520A1E35FF50009A7649 /* AGRoundButn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGRoundButn.h; sourceTree = "<group>"; };
+		3FC3520B1E35FF50009A7649 /* AGRoundButn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGRoundButn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		3FC351E61E35F390009A7649 = {
 			isa = PBXGroup;
 			children = (
+				3FC352091E35FF23009A7649 /* GradientGradientClass */,
 				3FC351F11E35F390009A7649 /* GradientGradient */,
 				3FC351F01E35F390009A7649 /* Products */,
 			);
@@ -77,6 +81,15 @@
 				3FC351F31E35F390009A7649 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FC352091E35FF23009A7649 /* GradientGradientClass */ = {
+			isa = PBXGroup;
+			children = (
+				3FC3520A1E35FF50009A7649 /* AGRoundButn.h */,
+				3FC3520B1E35FF50009A7649 /* AGRoundButn.m */,
+			);
+			path = GradientGradientClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FC351FA1E35F390009A7649 /* ViewController.m in Sources */,
+				3FC3520C1E35FF50009A7649 /* AGRoundButn.m in Sources */,
 				3FC351F71E35F390009A7649 /* AppDelegate.m in Sources */,
 				3FC351F41E35F390009A7649 /* main.m in Sources */,
 			);
